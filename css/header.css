@@ -1,0 +1,166 @@
+.main-sobre {
+    margin: 150px 0 350px 0;
+    display: flex;
+    
+    
+}
+  
+.caricato {
+    margin: 0 0 0 370px;
+    transition: .6s;
+    
+    
+}
+  
+.nome-p {
+    width:  900px;
+    margin: 115px 0 0 0;
+    font-size: 70px;
+    color: #0B090A;
+    transition: .6s;
+}
+  
+.nome-p h1 {
+    margin: 0;
+    
+    
+}
+  
+.nome-p p {
+    margin: 10px 0 0 10px;
+    font-size: 20px;
+}
+ 
+/* icones github e linkedin */
+
+.icone-topo {
+    z-index: 1000;
+    display: flex;
+    padding: 100px 0 0 0;
+    gap: 20px;
+    
+}
+  
+#git-topo {
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    transition: .6s;
+    
+}
+  
+#git-topo:hover {
+    width: 60px;
+    height: 60px;
+    transition: .5s;
+    
+}
+  
+#in-top {
+    width: 80px;
+    height: 80px;
+    transition: .6s;
+    
+}
+  
+#in-top:hover {
+    width: 90px;
+    height: 90px;
+    transition: .5s;
+    
+}
+
+@media (max-width: 1460px){
+    .caricato {
+        margin: 0 0 0 50px;
+        
+        
+    }
+}
+
+@media (max-width: 1140px){
+    .nome-p {
+        width:  900px;
+        margin: 115px 0 0 0;
+        font-size: 50px;
+        color: #0B090A;
+    }
+
+    .nome-p p {
+        margin: 10px 0 0 10px;
+        font-size: 20px;
+    }
+    .icone-topo {
+        z-index: 1000;
+        display: flex;
+        padding: 147px 0 0 0;
+        gap: 20px;
+        
+    }
+}
+
+@media (max-width: 887px){
+    .nome-p p {
+        margin: 10px 0 0 10px;
+        font-size: 15px;
+    }
+    
+    #in-top {
+        width: 70px;
+        height: 70px;
+        transition: .6s;
+        margin-bottom: 300px;
+    }
+    #git-topo {
+        width: 40px;
+        height: 40px;
+        padding-top: 15px;
+        transition: .6s;
+        
+    }
+
+    .icone-topo {
+        z-index: 1000;
+        display: flex;
+        padding: 40px 0 0 0;
+        gap: 20px;
+        
+    }
+}
+
+@media (max-width: 450px){
+    .main-sobre {
+        margin-bottom: 50px;
+    }
+    
+    .caricato {
+        color: none;
+        margin: 0 0 0 0;           
+    }
+    .nome-p {
+        width:  900px;
+        margin: 45px 0 0 0;
+        font-size: 40px;
+        color: #0B090A;
+    }
+    .nome-p p {
+        margin: 10px 0 0 10px;
+        font-size: 15px;
+       
+    }
+    
+    #in-top {
+        width: 50px;
+        height: 50px;
+        transition: .6s;
+        margin-bottom: 150px;
+    }
+    #git-topo {
+        width: 30px;
+        height: 30px;
+        padding-top: 10px;
+        transition: .6s;
+        
+    }
+
+}

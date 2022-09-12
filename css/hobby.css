@@ -1,0 +1,203 @@
+.hobby-geral {
+   margin-right: 50px;
+   
+}
+
+
+.hobby {
+    margin: 100px 0 200px 565px;
+    height: 300px;
+    width: 800px;
+    transition: .6s;
+    
+    
+}    
+
+.hobby h1 {
+    font-size: 60px;
+    margin: 0 0 0 0;
+}
+
+.hobby p {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+/* fotos hobby */
+
+.svg-hobby {
+    
+    width: 1800px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    transition: .6s;
+    
+}
+
+.music {
+    margin: 80px 0 0 480px;
+    width: 170px;
+    height: 180px;
+    
+ }
+
+.bike {
+    margin: 80px 0 500px 70px;
+    width: 170px;
+    height: 180px;
+    
+} 
+
+.game {
+    margin: 80px 0 500px 70px;
+    width: 170px;
+    height: 180px;
+    
+}
+
+.ler {
+    margin: 85px 0 500px 70px;
+    width: 170px;
+    height: 180px;
+    
+}
+
+@media (max-width: 1460px){
+    
+    .hobby {
+        margin: 200px 0 0 200px;
+     }
+
+     .music {
+        margin: 100px 0 0 150px;
+        width: 170px;
+        height: 180px;
+        
+     }
+    
+    
+}
+
+@media (max-width: 1140px){
+    
+
+    .hobby {
+        margin: 200px 0 0 100px;
+     }
+
+     .music {
+        margin: 100px 0 0 75px;
+        width: 170px;
+        height: 180px;
+        
+     }
+}
+
+@media (max-width: 887px){
+    .hobby {
+        margin: 200px 0 0 50px;
+        width: 450px;
+     }
+
+     .svg-hobby {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 450px;
+     }
+
+     .music {
+        margin: 100px 0 0 30px;
+        width: 170px;
+        height: 180px;
+        
+     }
+     
+     .bike {
+        margin: 100px 0 0 70px;
+        width: 170px;
+        height: 180px;
+        
+    } 
+     
+     .game {
+         margin: 100px 0 0 30px; 
+         width: 170px;
+        height: 180px;
+         
+    }
+    
+    .ler {
+        margin: 105px 0 0 70px; 
+        width: 170px;
+        height: 180px;
+        
+    }
+}
+
+@media (max-width: 450px){
+    .sobre {
+        margin: 20px 0 0 20px;
+        width: 350px;
+        height: 700px;
+    }
+
+    .sobre p{
+        padding: 10px 50px 20px 50px;
+        font-size: 17px;
+        text-align: center;
+        transition: .6s;
+    }
+    
+    .hobby {
+        margin: 20px 0 0 20px;
+        width: 350px;
+     }
+
+     .hobby p {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+     .svg-hobby {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 350px;
+     }
+
+     .music {
+        margin: 150px 0 0 30px;
+        width: 170px;
+        height: 180px;
+        
+     }
+     
+     .bike {
+        margin: 100px 0 0 70px;
+        width: 170px;
+        height: 180px;
+        
+    } 
+     
+     .game {
+         margin: 100px 0 0 30px; 
+         width: 170px;
+        height: 180px;
+         
+    }
+    
+    .ler {
+        margin: 105px 0 0 70px; 
+        width: 170px;
+        height: 180px;
+        
+    }
+
+} 

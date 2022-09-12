@@ -1,0 +1,245 @@
+/* caixa contato */
+
+
+#contato {
+    font-size: 30px;
+    border: 1px solid #161A1D;
+    border-radius: 10px;
+    background-color: #161A1D;
+    width: 50%;
+    height: 650px;
+    box-shadow:
+    0px 0px 9.3px -1px rgba(0, 0, 0, 0.071),
+    0px 0px 17.7px -1px rgba(0, 0, 0, 0.112),
+    0px 0px 25.8px -1px rgba(0, 0, 0, 0.142),
+    0px 0px 37px -1px rgba(0, 0, 0, 0.164),
+    0px 0px 80px -1px rgba(0, 0, 0, 0.17);  
+
+}
+
+#contato h1 {
+    margin: 30px 0 20px 0;
+    color: #F5F3F4;
+}
+
+#contato a {
+    color: #F5F3F4;
+    text-decoration: none;
+}
+
+/* botao do contato */
+
+#contato button {
+    width: 200px;
+    height: 50px;
+    margin: 0 0 0 0;
+    border: 1px solid #161A1D;
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: #161A1D;
+    transition: 0.3s;
+    color: #F5F3F4;
+    cursor: pointer;
+    
+}
+
+
+#contato button:hover {
+    opacity: 2;
+    background-color: #BA181B;
+    transition: 0.4s;
+    font-size: 23px;
+}
+
+#contato button:active {
+    transform: translateY(6px)
+}
+
+/* formularios */
+
+form {
+    margin: 150px 0 0 370px;
+    height: 900px;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: .6s;
+
+}
+
+#nome {
+    width: 455px;
+    height: 30px;
+    margin: 10px 0 25px 0;
+    font-size: medium;
+    
+    border: 1px solid #161A1D;
+    background-color: #F5F3F4;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#email {
+    width: 455px;
+    height: 30px;
+    margin: 10px 0 25px 0;
+    font-size: medium;
+    border: 1px solid #161A1D;
+    background-color: #F5F3F4;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#assunto {
+    width: 455px;
+    height: 30px;
+    margin: 10px 0 25px 0;
+    font-size: large;
+    border: 1px solid #161A1D;
+    background-color: #F5F3F4;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#mensagem {
+    width: 455px;
+    height: 200px;
+    margin: 10px 0 25px 0;
+    font-size: medium;
+    border: 1px solid #161A1D;
+    background-color: #F5F3F4;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+@media (max-width: 1460px){
+    
+    form {
+        margin: 200px 0 0 50px;
+    }
+}
+
+@media (max-width: 1140px){
+   
+    form {
+        margin: 200px 0 0 0;
+    }
+}
+
+@media (max-width: 887px){
+    
+    form {
+        margin: 200px 0 0 -150px;
+        width: 800px;
+        height: 720px;
+    }
+
+    #nome {
+        width: 300px;
+        height: 30px;
+        margin: 10px 0 25px 0;
+        font-size: medium;
+        
+        border: 1px solid #161A1D;
+        background-color: #F5F3F4;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+    
+    #email {
+        width: 300px;
+        height: 30px;
+        margin: 10px 0 25px 0;
+        font-size: medium;
+        border: 1px solid #161A1D;
+        background-color: #F5F3F4;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+    
+    #assunto {
+        width: 300px;
+        height: 30px;
+        margin: 10px 0 25px 0;
+        font-size: large;
+        border: 1px solid #161A1D;
+        background-color: #F5F3F4;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+    
+    #mensagem {
+        width: 300px;
+        height: 200px;
+        margin: 10px 0 25px 0;
+        font-size: medium;
+        border: 1px solid #161A1D;
+        background-color: #F5F3F4;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+
+    #contato h1 {
+        font-size: 40px ;
+    }
+    
+    
+}
+@media (max-width: 450px){
+    
+    form {
+        margin: 1000px 0 0 -30%;
+        width: 600px;
+        height: 720px;
+    }
+
+    #nome {
+        width: 250px;
+        height: 30px;
+        margin: 10px 0 25px 0;
+        font-size: medium;
+        
+        border: 1px solid #161A1D;
+        background-color: #F5F3F4;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+    
+    #email {
+        width: 250px;
+        height: 30px;
+        margin: 10px 0 25px 0;
+        font-size: medium;
+        border: 1px solid #161A1D;
+        background-color: #F5F3F4;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+    
+    #assunto {
+        width: 250px;
+        height: 30px;
+        margin: 10px 0 25px 0;
+        font-size: large;
+        border: 1px solid #161A1D;
+        background-color: #F5F3F4;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+    
+    #mensagem {
+        width: 250px;
+        height: 200px;
+        margin: 10px 0 25px 0;
+        font-size: medium;
+        border: 1px solid #161A1D;
+        background-color: #F5F3F4;
+        border-radius: 10px;
+        padding-left: 10px;
+    }
+
+    #contato h1 {
+        font-size: 40px ;
+    }
+} 
