@@ -21,6 +21,7 @@
 .hobby p {
     font-size: 30px;
     margin-bottom: 50px;
+    text-align: justify;
 }
 
 /* fotos hobby */
@@ -64,14 +65,14 @@
     
 }
 
-@media (max-width: 1460px){
+@media (max-width: 1680px){
     
     .hobby {
-        margin: 200px 0 0 200px;
+        margin: 15% 0 0 26%;
      }
 
      .music {
-        margin: 100px 0 0 150px;
+        margin: 85px 0 0 20%;
         width: 170px;
         height: 180px;
         
@@ -80,83 +81,42 @@
     
 }
 
-@media (max-width: 1140px){
+@media (max-width: 1440px){
     
 
     .hobby {
-        margin: 200px 0 0 100px;
+        margin: 15% 0 0 25%;
      }
 
      .music {
-        margin: 100px 0 0 75px;
+        margin: 85px 0 0 16%;
         width: 170px;
         height: 180px;
         
      }
 }
 
-@media (max-width: 887px){
+@media (max-width: 1024px){
     .hobby {
-        margin: 200px 0 0 50px;
-        width: 450px;
-     }
-
-     .svg-hobby {
-        margin-top: 200px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 450px;
+        margin: 15% 0 0 16%;
+        width: 75%;
      }
 
      .music {
-        margin: 100px 0 0 30px;
+        margin: 85px 0 0 3%;
         width: 170px;
         height: 180px;
         
      }
-     
-     .bike {
-        margin: 100px 0 0 70px;
-        width: 170px;
-        height: 180px;
-        
-    } 
-     
-     .game {
-         margin: 100px 0 0 30px; 
-         width: 170px;
-        height: 180px;
-         
-    }
-    
-    .ler {
-        margin: 105px 0 0 70px; 
-        width: 170px;
-        height: 180px;
-        
-    }
-}
 
-@media (max-width: 450px){
-    .sobre {
-        margin: 20px 0 0 20px;
-        width: 350px;
-        height: 700px;
-    }
 
-    .sobre p{
-        padding: 10px 50px 20px 50px;
-        font-size: 17px;
-        text-align: center;
-        transition: .6s;
-    }
+@media (max-width: 375px){
     
     .hobby {
-        margin: 20px 0 0 20px;
-        width: 350px;
+        margin: 15% 0 0 13%;
+        width: 90%;
      }
+
 
      .hobby p {
         font-size: 25px;
@@ -165,6 +125,7 @@
 
      .svg-hobby {
         margin-top: 200px;
+        
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -173,31 +134,32 @@
      }
 
      .music {
-        margin: 150px 0 0 30px;
+        margin: 150px 0 0 0;
         width: 170px;
         height: 180px;
         
      }
      
      .bike {
-        margin: 100px 0 0 70px;
+        margin: 100px 0 0 25px;
         width: 170px;
         height: 180px;
         
     } 
      
      .game {
-         margin: 100px 0 0 30px; 
+         margin: 100px 0 0 0; 
          width: 170px;
         height: 180px;
          
     }
     
     .ler {
-        margin: 105px 0 0 70px; 
+        margin: 105px 0 0 25px; 
         width: 170px;
         height: 180px;
         
+
     }
 
-} 
+}    
