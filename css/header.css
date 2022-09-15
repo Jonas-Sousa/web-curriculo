@@ -1,6 +1,7 @@
 .main-sobre {
     margin: 150px 0 350px 0;
     display: flex;
+    flex-wrap: wrap;
     
     
 }
