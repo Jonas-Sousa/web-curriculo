@@ -1,10 +1,16 @@
 .main-sobre {
     margin: 150px 0 350px 0;
     display: flex;
+    flex-direction: column;
+    
     
     
 }
-  
+ 
+.foto-nome {
+    display: flex;
+}
+
 .caricato {
     margin: 0 0 0 370px;
     transition: .6s;
