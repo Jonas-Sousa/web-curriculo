@@ -19,9 +19,9 @@ body {
 }
 #nav-bar {
   display: flex;
-  margin: 10px 0 5px 0;
-  height: 40px;
-  color: #0B090A;
+  margin: 0 0 0 0;
+  height: 100%;
+  /* color: #0B090A; */
   
   
   
@@ -45,14 +45,14 @@ body {
   width: 50%;
   margin: 100px 0 0 25%;
   text-align: center;
-  color: #0B090A;
+  
 }
 
 .hobby {
   width: 50%;
   margin: 100px 0 0 25%;
   text-align: center;
-  color: #0B090A;
+  
 }
 
 #contato {

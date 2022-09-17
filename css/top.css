@@ -1,15 +1,14 @@
 #nav-bar {
-  padding-bottom: 5px;
-  border-bottom: 1px solid  #D0D8DC;
-  
+  background-color: #161A1D;  
+  height: 50px;
+  color: aliceblue;
 
 }
 
 #nav-bar a {
-  color: #161A1D;
+  color: #F5F3F4;
   text-decoration: none;
 }
-
 
 /* botao hamburguer */
 
@@ -22,6 +21,8 @@
 
 /* botao jonas */
 .nav-jonas {
+  color: #F5F3F4;
+  margin-top: 13px;
   border: none;
   background-color: transparent;
   display: inline-block;
@@ -58,6 +59,7 @@
 
 /* botao portfolio */
 .nav-portfolio {
+  color:#F5F3F4 ;
   border: none;
   background-color: transparent;
   display: inline-block;
@@ -66,11 +68,14 @@
   font-size: large;
 }
 
+
+
 .nav-portfolio span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  
 }
 
 .nav-portfolio span::after {
@@ -95,6 +100,7 @@
 
 /* botao sobre */
 .nav-sobre {
+  color:#F5F3F4 ;
   border: none;
   background-color: transparent;
   display: inline-block;
@@ -132,6 +138,7 @@
 
 /* botao interesse */
 .nav-interesse {
+  color:#F5F3F4 ;
   border: none;
   background-color: transparent;
   display: inline-block;
@@ -170,6 +177,7 @@
 
 /* botao contato */
 .nav-contato {
+  color:#F5F3F4 ;
   font-size: large;
   border: none;
   background-color: transparent;
@@ -204,7 +212,7 @@
 }
 
 
-@media (max-width: 1700px) {
+@media (max-width: 1680px) {
   #btn-mobile {
     display: block;
     
@@ -214,22 +222,22 @@
 
   #nav-bar {
     display: flex;
-    margin: 10px 0 5px 0;
-    height: 40px;
-    color: #0B090A;
+    margin: 0 0 0 0;
+    height: 50px;
+    
   }
   #nav-3 {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 80px;
     position: absolute;
     transition: .6s;
-    height: 0px;
+    height: 50px;
     right: 0px;
-    top: 150px;
+    top: 50px;
     visibility: hidden;
     overflow-y: hidden;
+    
    
     
   }
@@ -237,15 +245,14 @@
   #nav-bar.active #nav-3 {
       display: flex;
       flex-direction: column;
-      justify-content: start;
-      gap: 80px;
+      justify-content: center;
+      gap: 100px;
       position: absolute;
       width: 100%;
-      top: 150px;
       right: 0px;
-      background: transparent;
+      background: #161A1D;
       z-index: 1000;
-      height: 380px;
+      height: 500px;
       visibility: visible;
       overflow-y: hidden;
       
@@ -265,9 +272,9 @@
   }
 
   #hamb {
-      margin-top: 5px;
+      margin-top: 10px;
       width: 25px;
-      border-top: 2px solid #161A1D ;
+      border-top: 2px solid #F5F3F4 ;
   }
 
   #hamb::after, #hamb::before {
@@ -275,7 +282,7 @@
     display: block;
     width: 25px;
     height: 2px;
-    background: currentColor;
+    background: #F5F3F4;
     margin-top: 5px;
     transition: .7s;
     position: relative;
@@ -295,7 +302,7 @@
   }
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1440px){
   #btn-mobile {
     display: block;
     
@@ -305,22 +312,22 @@
 
   #nav-bar {
     display: flex;
-    margin: 10px 0 5px 0;
-    height: 40px;
-    color: #0B090A;
+    margin: 0 0 0 0;
+    height: 50px;
+    
   }
   #nav-3 {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 80px;
     position: absolute;
     transition: .6s;
-    height: 0px;
+    height: 50px;
     right: 0px;
-    top: 150px;
+    top: 50px;
     visibility: hidden;
     overflow-y: hidden;
+    
    
     
   }
@@ -328,15 +335,14 @@
   #nav-bar.active #nav-3 {
       display: flex;
       flex-direction: column;
-      justify-content: start;
-      gap: 80px;
+      justify-content: center;
+      gap: 100px;
       position: absolute;
       width: 100%;
-      top: 150px;
       right: 0px;
-      background: transparent;
+      background: #161A1D;
       z-index: 1000;
-      height: 380px;
+      height: 500px;
       visibility: visible;
       overflow-y: hidden;
       
@@ -345,7 +351,7 @@
 
   #btn-mobile  {
     display: flex;
-    margin: 0 0 100px 68%;
+    margin: 0 0 100px 72%;
     padding-top: 5px;
     border: none;
     background: none;
@@ -356,9 +362,9 @@
   }
 
   #hamb {
-      margin-top: 5px;
+      margin-top: 10px;
       width: 25px;
-      border-top: 2px solid #161A1D ;
+      border-top: 2px solid #F5F3F4 ;
   }
 
   #hamb::after, #hamb::before {
@@ -366,7 +372,7 @@
     display: block;
     width: 25px;
     height: 2px;
-    background: currentColor;
+    background: #F5F3F4;
     margin-top: 5px;
     transition: .7s;
     position: relative;
@@ -386,7 +392,7 @@
   }
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1024px){
   #btn-mobile {
     display: block;
     
@@ -396,22 +402,22 @@
 
   #nav-bar {
     display: flex;
-    margin: 10px 0 5px 0;
-    height: 40px;
-    color: #0B090A;
+    margin: 0 0 0 0;
+    height: 50px;
+    
   }
   #nav-3 {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 80px;
     position: absolute;
     transition: .6s;
-    height: 0px;
+    height: 50px;
     right: 0px;
-    top: 150px;
+    top: 50px;
     visibility: hidden;
     overflow-y: hidden;
+    
    
     
   }
@@ -419,15 +425,14 @@
   #nav-bar.active #nav-3 {
       display: flex;
       flex-direction: column;
-      justify-content: start;
-      gap: 80px;
+      justify-content: center;
+      gap: 100px;
       position: absolute;
       width: 100%;
-      top: 150px;
       right: 0px;
-      background: transparent;
+      background: #161A1D;
       z-index: 1000;
-      height: 380px;
+      height: 500px;
       visibility: visible;
       overflow-y: hidden;
       
@@ -436,7 +441,7 @@
 
   #btn-mobile  {
     display: flex;
-    margin: 0 0 100px 48%;
+    margin: 0 0 100px 55%;
     padding-top: 5px;
     border: none;
     background: none;
@@ -447,9 +452,9 @@
   }
 
   #hamb {
-      margin-top: 5px;
+      margin-top: 10px;
       width: 25px;
-      border-top: 2px solid #161A1D ;
+      border-top: 2px solid #F5F3F4 ;
   }
 
   #hamb::after, #hamb::before {
@@ -457,7 +462,7 @@
     display: block;
     width: 25px;
     height: 2px;
-    background: currentColor;
+    background: #F5F3F4;
     margin-top: 5px;
     transition: .7s;
     position: relative;
@@ -476,8 +481,13 @@
     top:-7px;
   }
 }
+ 
 
-@media (max-width: 650px){
+@media (max-width: 375px){
+  .nav-jonas {
+    margin-left: 0;
+  }
+  
   #btn-mobile {
     display: block;
     
@@ -487,22 +497,22 @@
 
   #nav-bar {
     display: flex;
-    margin: 10px 0 5px 0;
-    height: 40px;
-    color: #0B090A;
+    margin: 0 0 0 0;
+    height: 50px;
+    
   }
   #nav-3 {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 80px;
     position: absolute;
     transition: .6s;
-    height: 0px;
+    height: 50px;
     right: 0px;
-    top: 150px;
+    top: 50px;
     visibility: hidden;
     overflow-y: hidden;
+    
    
     
   }
@@ -510,15 +520,14 @@
   #nav-bar.active #nav-3 {
       display: flex;
       flex-direction: column;
-      justify-content: start;
-      gap: 80px;
+      justify-content: center;
+      gap: 100px;
       position: absolute;
       width: 100%;
-      top: 150px;
       right: 0px;
-      background: transparent;
+      background: #161A1D;
       z-index: 1000;
-      height: 380px;
+      height: 500px;
       visibility: visible;
       overflow-y: hidden;
       
@@ -527,7 +536,7 @@
 
   #btn-mobile  {
     display: flex;
-    margin: 0 0 100px 28%;
+    margin: 0 0 100px 30%;
     padding-top: 5px;
     border: none;
     background: none;
@@ -538,9 +547,9 @@
   }
 
   #hamb {
-      margin-top: 5px;
+      margin-top: 10px;
       width: 25px;
-      border-top: 2px solid #161A1D ;
+      border-top: 2px solid #F5F3F4 ;
   }
 
   #hamb::after, #hamb::before {
@@ -548,7 +557,7 @@
     display: block;
     width: 25px;
     height: 2px;
-    background: currentColor;
+    background: #F5F3F4;
     margin-top: 5px;
     transition: .7s;
     position: relative;
@@ -566,95 +575,8 @@
     transform: rotate(-135deg);
     top:-7px;
   }
+
 }
 
-@media (max-width: 400px){
-  #btn-mobile {
-    display: block;
-    
-    
 
-  }
-
-  #nav-bar {
-    display: flex;
-    margin: 10px 0 5px 0;
-    height: 40px;
-    color: #0B090A;
-  }
-  #nav-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    gap: 80px;
-    position: absolute;
-    transition: .6s;
-    height: 0px;
-    right: 0px;
-    top: 150px;
-    visibility: hidden;
-    overflow-y: hidden;
-   
-    
-  }
   
-  #nav-bar.active #nav-3 {
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      gap: 80px;
-      position: absolute;
-      width: 100%;
-      top: 150px;
-      right: 0px;
-      background: transparent;
-      z-index: 1000;
-      height: 380px;
-      visibility: visible;
-      overflow-y: hidden;
-      
-      
-  }
-
-  #btn-mobile  {
-    display: flex;
-    margin: 0 0 100px 1%;
-    padding-top: 5px;
-    border: none;
-    background: none;
-    font-size: large;
-    cursor: pointer;
-    gap: 10px;
-
-  }
-
-  #hamb {
-      margin-top: 5px;
-      width: 25px;
-      border-top: 2px solid #161A1D ;
-  }
-
-  #hamb::after, #hamb::before {
-    content: "" ;
-    display: block;
-    width: 25px;
-    height: 2px;
-    background: currentColor;
-    margin-top: 5px;
-    transition: .7s;
-    position: relative;
-  }
-
-  #nav-bar.active #hamb {
-    border-top-color:transparent ;
-  }
-
-  #nav-bar.active #hamb::before {
-    transform: rotate(135deg);
-  }
-
-  #nav-bar.active #hamb::after {
-    transform: rotate(-135deg);
-    top:-7px;
-  }
-}
