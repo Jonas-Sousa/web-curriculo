@@ -1,6 +1,6 @@
 .sobre {
   
-    
+    text-align: center;
     height: 900px;
     width: 800px;
     border-radius: 10px;
@@ -23,7 +23,6 @@
     margin: 0 0 0 0;
     padding-top: 50px;
     font-size: 50px;
-    text-align: center;
     transition: .6s;
 }
 
@@ -31,30 +30,29 @@
 .sobre p{
     padding: 20px 50px 20px 50px;
     font-size: 30px;
-    text-align: justify;
+    text-align: center;
     transition: .6s;
 }
 
 
-@media (max-width: 1680px){
+@media (max-width: 1460px){
     .sobre {
-        margin: 30% 0 0 26%;
+        margin: 200px 0 0 250px;
     }
     
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1140px){
     .sobre {
-        margin: 30% 0 0 23%;
+        margin: 200px 0 0 100px;
     }
-    
 }
 
-@media (max-width: 1024px){
+@media (max-width: 887px){
     .sobre {
-        margin: 20% 0 0 16%;
-        width: 700px;
-        height: 800px;
+        margin: 100px 0 0 50px;
+        width: 450px;
+        height: 750px;
     }
 
     .sobre h1 {
@@ -66,29 +64,31 @@
 
     .sobre p{
         padding: 10px 50px 20px 50px;
-        font-size: 27px;
+        font-size: 21px;
+        text-align: center;
         transition: .6s;
     }
     
 }
 
-@media (max-width: 375px){
-    .sobre {
-        margin: 0 0 80% 3%;
-        width: 350px;
-        height: 800px;
-    }
+@media (max-width: 450px){
+    #bug {
+        width: 300px;
+        margin: 100px 110px 50px -80px;
+    
+   }
 
     .sobre h1 {
         margin: 0 0 0 0;
         padding-top: 50px;
-        font-size: 40px;
+        font-size: 30px;
         transition: .6s;
     }
 
     .sobre p{
-        padding: 10px 15px 20px 15px;
-        font-size: 20px;
+        padding: 10px 50px 20px 50px;
+        font-size: 30px;
+        text-align: center;
         transition: .6s;
     }
 }

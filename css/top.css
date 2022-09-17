@@ -1,14 +1,15 @@
 #nav-bar {
-  background-color: #161A1D;  
-  height: 50px;
-  color: aliceblue;
+  padding-bottom: 5px;
+  border-bottom: 1px solid  #D0D8DC;
+  
 
 }
 
 #nav-bar a {
-  color: #F5F3F4;
+  color: #161A1D;
   text-decoration: none;
 }
+
 
 /* botao hamburguer */
 
@@ -21,8 +22,6 @@
 
 /* botao jonas */
 .nav-jonas {
-  color: #F5F3F4;
-  margin-top: 13px;
   border: none;
   background-color: transparent;
   display: inline-block;
@@ -59,7 +58,6 @@
 
 /* botao portfolio */
 .nav-portfolio {
-  color:#F5F3F4 ;
   border: none;
   background-color: transparent;
   display: inline-block;
@@ -68,14 +66,11 @@
   font-size: large;
 }
 
-
-
 .nav-portfolio span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
-  
 }
 
 .nav-portfolio span::after {
@@ -100,7 +95,6 @@
 
 /* botao sobre */
 .nav-sobre {
-  color:#F5F3F4 ;
   border: none;
   background-color: transparent;
   display: inline-block;
@@ -138,7 +132,6 @@
 
 /* botao interesse */
 .nav-interesse {
-  color:#F5F3F4 ;
   border: none;
   background-color: transparent;
   display: inline-block;
@@ -177,7 +170,6 @@
 
 /* botao contato */
 .nav-contato {
-  color:#F5F3F4 ;
   font-size: large;
   border: none;
   background-color: transparent;
@@ -212,7 +204,7 @@
 }
 
 
-@media (max-width: 1680px) {
+@media (max-width: 1700px) {
   #btn-mobile {
     display: block;
     
@@ -222,22 +214,22 @@
 
   #nav-bar {
     display: flex;
-    margin: 0 0 0 0;
-    height: 50px;
-    
+    margin: 10px 0 5px 0;
+    height: 40px;
+    color: #0B090A;
   }
   #nav-3 {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    gap: 80px;
     position: absolute;
     transition: .6s;
-    height: 50px;
+    height: 0px;
     right: 0px;
-    top: 50px;
+    top: 150px;
     visibility: hidden;
     overflow-y: hidden;
-    
    
     
   }
@@ -245,14 +237,15 @@
   #nav-bar.active #nav-3 {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      gap: 100px;
+      justify-content: start;
+      gap: 80px;
       position: absolute;
       width: 100%;
+      top: 150px;
       right: 0px;
-      background: #161A1D;
+      background: transparent;
       z-index: 1000;
-      height: 500px;
+      height: 380px;
       visibility: visible;
       overflow-y: hidden;
       
@@ -272,9 +265,9 @@
   }
 
   #hamb {
-      margin-top: 10px;
+      margin-top: 5px;
       width: 25px;
-      border-top: 2px solid #F5F3F4 ;
+      border-top: 2px solid #161A1D ;
   }
 
   #hamb::after, #hamb::before {
@@ -282,7 +275,7 @@
     display: block;
     width: 25px;
     height: 2px;
-    background: #F5F3F4;
+    background: currentColor;
     margin-top: 5px;
     transition: .7s;
     position: relative;
@@ -302,7 +295,7 @@
   }
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1400px){
   #btn-mobile {
     display: block;
     
@@ -312,22 +305,22 @@
 
   #nav-bar {
     display: flex;
-    margin: 0 0 0 0;
-    height: 50px;
-    
+    margin: 10px 0 5px 0;
+    height: 40px;
+    color: #0B090A;
   }
   #nav-3 {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    gap: 80px;
     position: absolute;
     transition: .6s;
-    height: 50px;
+    height: 0px;
     right: 0px;
-    top: 50px;
+    top: 150px;
     visibility: hidden;
     overflow-y: hidden;
-    
    
     
   }
@@ -335,14 +328,15 @@
   #nav-bar.active #nav-3 {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      gap: 100px;
+      justify-content: start;
+      gap: 80px;
       position: absolute;
       width: 100%;
+      top: 150px;
       right: 0px;
-      background: #161A1D;
+      background: transparent;
       z-index: 1000;
-      height: 500px;
+      height: 380px;
       visibility: visible;
       overflow-y: hidden;
       
@@ -351,7 +345,7 @@
 
   #btn-mobile  {
     display: flex;
-    margin: 0 0 100px 72%;
+    margin: 0 0 100px 68%;
     padding-top: 5px;
     border: none;
     background: none;
@@ -362,9 +356,9 @@
   }
 
   #hamb {
-      margin-top: 10px;
+      margin-top: 5px;
       width: 25px;
-      border-top: 2px solid #F5F3F4 ;
+      border-top: 2px solid #161A1D ;
   }
 
   #hamb::after, #hamb::before {
@@ -372,7 +366,7 @@
     display: block;
     width: 25px;
     height: 2px;
-    background: #F5F3F4;
+    background: currentColor;
     margin-top: 5px;
     transition: .7s;
     position: relative;
@@ -392,7 +386,7 @@
   }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1000px){
   #btn-mobile {
     display: block;
     
@@ -402,22 +396,22 @@
 
   #nav-bar {
     display: flex;
-    margin: 0 0 0 0;
-    height: 50px;
-    
+    margin: 10px 0 5px 0;
+    height: 40px;
+    color: #0B090A;
   }
   #nav-3 {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    gap: 80px;
     position: absolute;
     transition: .6s;
-    height: 50px;
+    height: 0px;
     right: 0px;
-    top: 50px;
+    top: 150px;
     visibility: hidden;
     overflow-y: hidden;
-    
    
     
   }
@@ -425,14 +419,15 @@
   #nav-bar.active #nav-3 {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      gap: 100px;
+      justify-content: start;
+      gap: 80px;
       position: absolute;
       width: 100%;
+      top: 150px;
       right: 0px;
-      background: #161A1D;
+      background: transparent;
       z-index: 1000;
-      height: 500px;
+      height: 380px;
       visibility: visible;
       overflow-y: hidden;
       
@@ -441,7 +436,7 @@
 
   #btn-mobile  {
     display: flex;
-    margin: 0 0 100px 55%;
+    margin: 0 0 100px 48%;
     padding-top: 5px;
     border: none;
     background: none;
@@ -452,9 +447,9 @@
   }
 
   #hamb {
-      margin-top: 10px;
+      margin-top: 5px;
       width: 25px;
-      border-top: 2px solid #F5F3F4 ;
+      border-top: 2px solid #161A1D ;
   }
 
   #hamb::after, #hamb::before {
@@ -462,7 +457,7 @@
     display: block;
     width: 25px;
     height: 2px;
-    background: #F5F3F4;
+    background: currentColor;
     margin-top: 5px;
     transition: .7s;
     position: relative;
@@ -481,13 +476,8 @@
     top:-7px;
   }
 }
- 
 
-@media (max-width: 375px){
-  .nav-jonas {
-    margin-left: 0;
-  }
-  
+@media (max-width: 650px){
   #btn-mobile {
     display: block;
     
@@ -497,22 +487,22 @@
 
   #nav-bar {
     display: flex;
-    margin: 0 0 0 0;
-    height: 50px;
-    
+    margin: 10px 0 5px 0;
+    height: 40px;
+    color: #0B090A;
   }
   #nav-3 {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    gap: 80px;
     position: absolute;
     transition: .6s;
-    height: 50px;
+    height: 0px;
     right: 0px;
-    top: 50px;
+    top: 150px;
     visibility: hidden;
     overflow-y: hidden;
-    
    
     
   }
@@ -520,14 +510,15 @@
   #nav-bar.active #nav-3 {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      gap: 100px;
+      justify-content: start;
+      gap: 80px;
       position: absolute;
       width: 100%;
+      top: 150px;
       right: 0px;
-      background: #161A1D;
+      background: transparent;
       z-index: 1000;
-      height: 500px;
+      height: 380px;
       visibility: visible;
       overflow-y: hidden;
       
@@ -536,7 +527,7 @@
 
   #btn-mobile  {
     display: flex;
-    margin: 0 0 100px 30%;
+    margin: 0 0 100px 28%;
     padding-top: 5px;
     border: none;
     background: none;
@@ -547,9 +538,9 @@
   }
 
   #hamb {
-      margin-top: 10px;
+      margin-top: 5px;
       width: 25px;
-      border-top: 2px solid #F5F3F4 ;
+      border-top: 2px solid #161A1D ;
   }
 
   #hamb::after, #hamb::before {
@@ -557,7 +548,7 @@
     display: block;
     width: 25px;
     height: 2px;
-    background: #F5F3F4;
+    background: currentColor;
     margin-top: 5px;
     transition: .7s;
     position: relative;
@@ -575,8 +566,95 @@
     transform: rotate(-135deg);
     top:-7px;
   }
-
 }
 
+@media (max-width: 400px){
+  #btn-mobile {
+    display: block;
+    
+    
 
+  }
+
+  #nav-bar {
+    display: flex;
+    margin: 10px 0 5px 0;
+    height: 40px;
+    color: #0B090A;
+  }
+  #nav-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 80px;
+    position: absolute;
+    transition: .6s;
+    height: 0px;
+    right: 0px;
+    top: 150px;
+    visibility: hidden;
+    overflow-y: hidden;
+   
+    
+  }
   
+  #nav-bar.active #nav-3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      gap: 80px;
+      position: absolute;
+      width: 100%;
+      top: 150px;
+      right: 0px;
+      background: transparent;
+      z-index: 1000;
+      height: 380px;
+      visibility: visible;
+      overflow-y: hidden;
+      
+      
+  }
+
+  #btn-mobile  {
+    display: flex;
+    margin: 0 0 100px 1%;
+    padding-top: 5px;
+    border: none;
+    background: none;
+    font-size: large;
+    cursor: pointer;
+    gap: 10px;
+
+  }
+
+  #hamb {
+      margin-top: 5px;
+      width: 25px;
+      border-top: 2px solid #161A1D ;
+  }
+
+  #hamb::after, #hamb::before {
+    content: "" ;
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: .7s;
+    position: relative;
+  }
+
+  #nav-bar.active #hamb {
+    border-top-color:transparent ;
+  }
+
+  #nav-bar.active #hamb::before {
+    transform: rotate(135deg);
+  }
+
+  #nav-bar.active #hamb::after {
+    transform: rotate(-135deg);
+    top:-7px;
+  }
+}

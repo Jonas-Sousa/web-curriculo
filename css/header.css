@@ -71,98 +71,97 @@
     
 }
 
-@media (max-width: 1680px){
+@media (max-width: 1460px){
     .caricato {
-        margin: 0 0 0 15%;
+        margin: 0 0 0 50px;
         
         
     }
 }
 
-@media (max-width: 1440px){
-    .caricato {
-        margin: 0 0 0 8%;
-        
+@media (max-width: 1140px){
+    .nome-p {
+        width:  900px;
+        margin: 115px 0 0 0;
+        font-size: 50px;
+        color: #0B090A;
     }
-    
-}
 
-@media (max-width: 1024px){
-    .caricato {
-        margin: 0 0 0 12%;
-        
-    }
-    .nome-p h1 {
-        font-size: 137px;
-        line-height: 0.8;
-    }
-    
     .nome-p p {
-        
+        margin: 10px 0 0 10px;
         font-size: 20px;
+    }
+    .icone-topo {
+        z-index: 1000;
+        display: flex;
+        padding: 147px 0 0 0;
+        gap: 20px;
+        
+    }
+}
+
+@media (max-width: 887px){
+    .nome-p p {
+        margin: 10px 0 0 10px;
+        font-size: 15px;
     }
     
     #in-top {
         width: 70px;
         height: 70px;
         transition: .6s;
-        
+        margin-bottom: 300px;
     }
     #git-topo {
         width: 40px;
         height: 40px;
-        padding-bottom: 10%;
+        padding-top: 15px;
         transition: .6s;
         
-    } 
+    }
 
     .icone-topo {
         z-index: 1000;
         display: flex;
-        padding: 7% 0 0 0;
+        padding: 40px 0 0 0;
         gap: 20px;
         
     }
 }
 
-@media (max-width: 375px){
-    .caricato {
-        margin: 10% 0 0 -5%;
-        
-    }
-    .nome-p {
-        padding: 0 0 0;
-    }
-    .nome-p h1 {
-        font-size: 80px;
-        line-height: 0.8;
-        
+@media (max-width: 450px){
+    .main-sobre {
+        margin-bottom: 50px;
     }
     
+    .caricato {
+        color: none;
+        margin: 0 0 0 0;           
+    }
+    .nome-p {
+        width:  900px;
+        margin: 45px 0 0 0;
+        font-size: 40px;
+        color: #0B090A;
+    }
     .nome-p p {
-        
+        margin: 10px 0 0 10px;
         font-size: 15px;
+       
     }
     
     #in-top {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         transition: .6s;
-        
+        margin-bottom: 150px;
     }
     #git-topo {
-        width: 35px;
-        height: 35px;
-        padding-bottom: 50%;
+        width: 30px;
+        height: 30px;
+        padding-top: 10px;
         transition: .6s;
         
-    } 
-
-    .icone-topo {
-        z-index: 1000;
-        display: flex;
-        padding: 5% 0 0 5%;
-        gap: 20px;
-        
     }
+
 }
